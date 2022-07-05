@@ -54,7 +54,15 @@ video {
 
 .input-container {
   position: relative;
-  top: 20px;
+  top: 0px;
+}
+.input-container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  margin-bottom: 20px;
+  margin-left: 30%;
 }
 
 h1 {
@@ -170,7 +178,7 @@ li span {
 
   .container {
     min-width: unset;
-    width: 95vw;
+    width: 90vw;
     min-height: 245px;
     padding: 20px;
     margin: 10px;
@@ -178,6 +186,14 @@ li span {
 
   .input-container {
     top: unset;
+  }
+  .input-container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-bottom: 20px;
+    margin-left: 20%;
   }
 
   .countdown {
@@ -190,7 +206,7 @@ li span {
   }
 
   input {
-    width: 93%;
+    width: 90%;
   }
 
   h1 {
